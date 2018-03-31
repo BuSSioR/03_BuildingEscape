@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BE.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1EB68D64-B962-4B2D-A38C-BB4C460765A4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BE.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BEEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{29E3774C-2BC4-429C-BB67-A3D4C08DC412}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BE">
+			<UniqueIdentifier>{32FEA305-71B7-474B-8BB4-59CF7F412E63}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BE\BE.Build.cs">
+			<Filter>Source\BE</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BE\BE.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\BE.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BE\BEGameModeBase.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\BEGameModeBase.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
