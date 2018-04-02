@@ -1,61 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\BE.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{1F80A8DF-1E59-4E92-93D6-43F42D31FAEA}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\BE.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\BEEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{3A238507-9CCD-4EB8-92FD-7F604ECEA8D6}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\BE">
-      <UniqueIdentifier>{292116AF-2497-4FF6-8933-2D10C4372147}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\BE\BE.Build.cs">
-      <Filter>Source\BE</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\BE\BE.cpp">
-      <Filter>Source\BE</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BE\BE.h">
-      <Filter>Source\BE</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BE\BEGameModeBase.cpp">
-      <Filter>Source\BE</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BE\BEGameModeBase.h">
-      <Filter>Source\BE</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\BE\PositionReport.cpp">
-      <Filter>Source\BE</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\BE\PositionReport.h">
-      <Filter>Source\BE</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\BE\OpenDoor.h">
-      <Filter>Source\BE</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\BE\OpenDoor.cpp">
-      <Filter>Source\BE</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\BE.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{37693E9C-E95E-4A8C-AD14-830E47B5CD44}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BE.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BEEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{93FF43DF-9AF2-4C55-9DC5-B276D70C3319}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BE">
+			<UniqueIdentifier>{5D3CF3B2-8860-4513-9F3B-42076E3E7309}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BE\BE.Build.cs">
+			<Filter>Source\BE</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BE\BE.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\BE.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BE\BEGameModeBase.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\BEGameModeBase.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BE\Grabber.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\Grabber.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BE\OpenDoor.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\OpenDoor.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BE\PositionReport.cpp">
+			<Filter>Source\BE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BE\PositionReport.h">
+			<Filter>Source\BE</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
