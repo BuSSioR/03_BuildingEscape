@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BE-9848.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\BE.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\BEGameModeBase.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\Grabber.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\OpenDoor.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\PositionReport.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\BE.init.gen.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\BEGameModeBase.gen.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\Grabber.gen.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\OpenDoor.gen.cpp.obj"
+"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\BE\PositionReport.gen.cpp.obj"
+"E:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\BE\PCLaunch.rc.res"
+"E:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\xxx\Documents\UnrealRepo\03\03_BuildingEscape\BE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BE-9848.lib"

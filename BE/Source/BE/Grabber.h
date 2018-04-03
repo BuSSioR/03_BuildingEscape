@@ -27,5 +27,6 @@ public:
 private:
 	FVector Location;
 	FRotator Rotation;
+	float Reach = 100.0f;
 	
 };
