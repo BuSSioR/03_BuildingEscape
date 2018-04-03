@@ -1,10 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Grabber.h"
-#include "GameFramework/Actor.h"
-#include "Engine/World.h"
-#include "DrawDebugHelpers.h"
-
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -24,8 +20,19 @@ void UGrabber::BeginPlay()
 
 
 
-	// ...
-	
+	/// Look for attached PhysicsHandle
+	//wylatuje poza grabber do w³aœciciela i szuka klasy physicshandlecomponent
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+
+	if (PhysicsHandle)
+	{
+
+	}
+	else
+	{
+		//wystawia do konsoli log z errorem ze dany obiekt nie ma physics handlera
+		UE_LOG(LogTemp,Error,TEXT("PHYSICS HANDLER OF %s IS MISSING"),*(GetOwner()->GetName()))
+	}
 }
 
 
