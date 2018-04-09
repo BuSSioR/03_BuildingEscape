@@ -43,7 +43,7 @@ private:
 	// aktor który jeœli znajdzie siê w p³ytce naciskowej otwiera drzwi
 	//czas potrzebny na zamkniêcie siê drzwi
 	UPROPERTY(EditAnywhere)
-		float DoorCloseDelay = 1.0f;
+		float DoorCloseDelay = 0.5f;
 
 		float LastDoorOpenTime;
 

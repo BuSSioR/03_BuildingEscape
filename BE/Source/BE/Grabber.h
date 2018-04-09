@@ -43,7 +43,7 @@ public:
 
 private:
 
-	float Reach = 100.0f;
+	float Reach = 150.0f;
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
 
