@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BE_PositionReport_generated_h
 
-#define BE_Source_BE_PositionReport_h_13_RPC_WRAPPERS
-#define BE_Source_BE_PositionReport_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define BE_Source_BE_PositionReport_h_13_INCLASS_NO_PURE_DECLS \
+#define BE_Source_BE_PositionReport_h_14_RPC_WRAPPERS
+#define BE_Source_BE_PositionReport_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define BE_Source_BE_PositionReport_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPositionReport(); \
 	friend BE_API class UClass* Z_Construct_UClass_UPositionReport(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define BE_Source_BE_PositionReport_h_13_INCLASS \
+#define BE_Source_BE_PositionReport_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUPositionReport(); \
 	friend BE_API class UClass* Z_Construct_UClass_UPositionReport(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define BE_Source_BE_PositionReport_h_13_STANDARD_CONSTRUCTORS \
+#define BE_Source_BE_PositionReport_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPositionReport(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPositionReport) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define BE_Source_BE_PositionReport_h_13_ENHANCED_CONSTRUCTORS \
+#define BE_Source_BE_PositionReport_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPositionReport(UPositionReport&&); \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPositionReport); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPositionReport)
 
 
-#define BE_Source_BE_PositionReport_h_13_PRIVATE_PROPERTY_OFFSET
-#define BE_Source_BE_PositionReport_h_10_PROLOG
-#define BE_Source_BE_PositionReport_h_13_GENERATED_BODY_LEGACY \
+#define BE_Source_BE_PositionReport_h_14_PRIVATE_PROPERTY_OFFSET
+#define BE_Source_BE_PositionReport_h_11_PROLOG
+#define BE_Source_BE_PositionReport_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BE_Source_BE_PositionReport_h_13_PRIVATE_PROPERTY_OFFSET \
-	BE_Source_BE_PositionReport_h_13_RPC_WRAPPERS \
-	BE_Source_BE_PositionReport_h_13_INCLASS \
-	BE_Source_BE_PositionReport_h_13_STANDARD_CONSTRUCTORS \
+	BE_Source_BE_PositionReport_h_14_PRIVATE_PROPERTY_OFFSET \
+	BE_Source_BE_PositionReport_h_14_RPC_WRAPPERS \
+	BE_Source_BE_PositionReport_h_14_INCLASS \
+	BE_Source_BE_PositionReport_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BE_Source_BE_PositionReport_h_13_GENERATED_BODY \
+#define BE_Source_BE_PositionReport_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BE_Source_BE_PositionReport_h_13_PRIVATE_PROPERTY_OFFSET \
-	BE_Source_BE_PositionReport_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	BE_Source_BE_PositionReport_h_13_INCLASS_NO_PURE_DECLS \
-	BE_Source_BE_PositionReport_h_13_ENHANCED_CONSTRUCTORS \
+	BE_Source_BE_PositionReport_h_14_PRIVATE_PROPERTY_OFFSET \
+	BE_Source_BE_PositionReport_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	BE_Source_BE_PositionReport_h_14_INCLASS_NO_PURE_DECLS \
+	BE_Source_BE_PositionReport_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

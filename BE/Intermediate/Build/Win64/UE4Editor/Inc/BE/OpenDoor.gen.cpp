@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 	BE_API UClass* Z_Construct_UClass_UOpenDoor();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_BE();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AVolume_NoRegister();
 // End Cross Module References
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
@@ -48,21 +47,15 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DoorCloseDelay_MetaData[] = {
 				{ "Category", "OpenDoor" },
 				{ "ModuleRelativePath", "OpenDoor.h" },
-				{ "ToolTip", "pawn inhariets from actor" },
+				{ "ToolTip", "aktor kt?ry je?li znajdzie si? w p?ytce naciskowej otwiera drzwi\nczas potrzebny na zamkni?cie si? drzwi" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DoorCloseDelay = { UE4CodeGen_Private::EPropertyClass::Float, "DoorCloseDelay", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, DoorCloseDelay), METADATA_PARAMS(NewProp_DoorCloseDelay_MetaData, ARRAY_COUNT(NewProp_DoorCloseDelay_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorThatOpens_MetaData[] = {
-				{ "Category", "OpenDoor" },
-				{ "ModuleRelativePath", "OpenDoor.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorThatOpens = { UE4CodeGen_Private::EPropertyClass::Object, "ActorThatOpens", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, ActorThatOpens), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(NewProp_ActorThatOpens_MetaData, ARRAY_COUNT(NewProp_ActorThatOpens_MetaData)) };
-#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PressurePlate_MetaData[] = {
 				{ "Category", "OpenDoor" },
 				{ "ModuleRelativePath", "OpenDoor.h" },
+				{ "ToolTip", "p?ytka naciskowa oddzia?uj?ca z drzwiami." },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PressurePlate = { UE4CodeGen_Private::EPropertyClass::Object, "PressurePlate", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, PressurePlate), Z_Construct_UClass_AVolume_NoRegister, METADATA_PARAMS(NewProp_PressurePlate_MetaData, ARRAY_COUNT(NewProp_PressurePlate_MetaData)) };
@@ -75,7 +68,6 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_OpenAngle = { UE4CodeGen_Private::EPropertyClass::Float, "OpenAngle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(UOpenDoor, OpenAngle), METADATA_PARAMS(NewProp_OpenAngle_MetaData, ARRAY_COUNT(NewProp_OpenAngle_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DoorCloseDelay,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ActorThatOpens,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PressurePlate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OpenAngle,
 			};
@@ -97,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 2722345523);
+	IMPLEMENT_CLASS(UOpenDoor, 3596676797);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UOpenDoor(Z_Construct_UClass_UOpenDoor, &UOpenDoor::StaticClass, TEXT("/Script/BE"), TEXT("UOpenDoor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenDoor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

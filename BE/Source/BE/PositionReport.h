@@ -1,4 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+//useless w grze mo¿e byæ przydatny ze wzglêdu na wartoœci edukacyjne
 
 #pragma once
 

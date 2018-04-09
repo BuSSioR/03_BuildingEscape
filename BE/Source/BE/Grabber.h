@@ -22,23 +22,30 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
-
-	void SetupInputComponent();
-
+	//RayCast and grab what is in reach
+	void Grab();
+	// relase grabbed physics body
+	void Relase();
+	// find assumed physics component
 	void FindPhysicsComponent();
-
+	//setup attached input component
+	void SetupInputComponent();
+	//return current end of reachline
+	FVector GetReachLineEnd();
+	//return hit for first physics body in reach
 	FHitResult GetFirstPhysicsBodyInReach();
+
+	FVector GetReachLineStart();
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	FVector Location;
-	FRotator Rotation;
+
 	float Reach = 100.0f;
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
-	void Grab();
-	void Relase();
+
 
 };
